@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sourav.termuxguideforbeginners"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\f15247a5d90e9715462f73ed4ae8db47\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\f15247a5d90e9715462f73ed4ae8db47\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+14
+15    <application
+15-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:8:5-55:19
+16        android:allowBackup="true"
+16-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:13:9-35
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:14:9-40
+23        <meta-data
+23-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:16:9-18:69
+24            android:name="com.google.android.gms.ads.APPLICATION_ID"
+24-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:17:13-69
+25            android:value="ca-app-pub-4686443285116727~5758764659" />
+25-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:18:13-67
+26
+27        <activity android:name="com.sourav.termuxguideforbeginners.splashscreen" >
+27-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:20:9-27:20
+27-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:20:19-47
+28            <intent-filter>
+28-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:21:13-25:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:22:17-69
+29-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:22:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:24:17-77
+31-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:24:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.sourav.termuxguideforbeginners.Activity25" />
+34-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:28:9-48
+34-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:28:19-45
+35        <activity android:name="com.sourav.termuxguideforbeginners.Activity24" />
+35-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:29:9-48
+35-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:29:19-45
+36        <activity android:name="com.sourav.termuxguideforbeginners.Activity23" />
+36-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:30:9-48
+36-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:30:19-45
+37        <activity android:name="com.sourav.termuxguideforbeginners.Activity22" />
+37-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:31:9-48
+37-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:31:19-45
+38        <activity android:name="com.sourav.termuxguideforbeginners.Activity21" />
+38-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:32:9-48
+38-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:32:19-45
+39        <activity android:name="com.sourav.termuxguideforbeginners.Activity20" />
+39-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:33:9-48
+39-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:33:19-45
+40        <activity android:name="com.sourav.termuxguideforbeginners.Activity19" />
+40-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:34:9-48
+40-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:34:19-45
+41        <activity android:name="com.sourav.termuxguideforbeginners.Activity18" />
+41-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:35:9-48
+41-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:35:19-45
+42        <activity android:name="com.sourav.termuxguideforbeginners.Activity17" />
+42-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:36:9-48
+42-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:36:19-45
+43        <activity android:name="com.sourav.termuxguideforbeginners.Activity16" />
+43-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:37:9-48
+43-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:37:19-45
+44        <activity android:name="com.sourav.termuxguideforbeginners.Activity15" />
+44-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:38:9-48
+44-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:38:19-45
+45        <activity android:name="com.sourav.termuxguideforbeginners.Activity14" />
+45-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:39:9-48
+45-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:39:19-45
+46        <activity android:name="com.sourav.termuxguideforbeginners.Activity13" />
+46-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:40:9-48
+46-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:40:19-45
+47        <activity android:name="com.sourav.termuxguideforbeginners.Activity12" />
+47-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:41:9-48
+47-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:41:19-45
+48        <activity android:name="com.sourav.termuxguideforbeginners.Activity11" />
+48-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:42:9-48
+48-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:42:19-45
+49        <activity android:name="com.sourav.termuxguideforbeginners.Activity10" />
+49-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:43:9-48
+49-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:43:19-45
+50        <activity android:name="com.sourav.termuxguideforbeginners.Activity9" />
+50-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:44:9-47
+50-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:44:19-44
+51        <activity android:name="com.sourav.termuxguideforbeginners.Activity8" />
+51-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:45:9-47
+51-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:45:19-44
+52        <activity android:name="com.sourav.termuxguideforbeginners.Activity7" />
+52-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:46:9-47
+52-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:46:19-44
+53        <activity android:name="com.sourav.termuxguideforbeginners.Activity6" />
+53-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:47:9-47
+53-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:47:19-44
+54        <activity android:name="com.sourav.termuxguideforbeginners.Activity5" />
+54-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:48:9-47
+54-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:48:19-44
+55        <activity android:name="com.sourav.termuxguideforbeginners.Activity4" />
+55-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:49:9-47
+55-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:49:19-44
+56        <activity android:name="com.sourav.termuxguideforbeginners.Activity3" />
+56-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:50:9-47
+56-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:50:19-44
+57        <activity android:name="com.sourav.termuxguideforbeginners.Activity2" />
+57-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:51:9-47
+57-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:51:19-44
+58        <activity android:name="com.sourav.termuxguideforbeginners.MainActivity" >
+58-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:52:9-54:20
+58-->C:\Users\SOURAV LAKSHAN\AndroidStudioProjects\TermuxGuideForBeginners2\app\src\main\AndroidManifest.xml:52:19-47
+59        </activity>
+60        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+61        <activity
+61-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:29:9-33:64
+62            android:name="com.google.android.gms.ads.AdActivity"
+62-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:30:13-65
+63            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+63-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:31:13-122
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:32:13-37
+65            android:theme="@android:style/Theme.Translucent" />
+65-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:33:13-61
+66
+67        <provider
+67-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:35:9-39:39
+68            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+68-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:36:13-76
+69            android:authorities="com.sourav.termuxguideforbeginners.mobileadsinitprovider"
+69-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:37:13-73
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:38:13-37
+71            android:initOrder="100" />
+71-->[com.google.android.gms:play-services-ads-lite:19.2.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\4484a7db43b7b4f11a07361abffb1805\jetified-play-services-ads-lite-19.2.0\AndroidManifest.xml:39:13-36
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SOURAV LAKSHAN\.gradle\caches\transforms-2\files-2.1\85cfff5691f363e5417071a3d3b6c15f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+76    </application>
+77
+78</manifest>

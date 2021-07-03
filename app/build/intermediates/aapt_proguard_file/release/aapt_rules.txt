@@ -1,0 +1,77 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity10 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity11 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity12 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity13 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity14 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity15 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity16 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity17 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity18 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity19 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity2 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity20 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity21 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity22 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity23 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity24 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity25 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity3 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity4 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity5 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity6 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity7 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity8 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.Activity9 { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.MainActivity { <init>(); }
+-keep class com.sourav.termuxguideforbeginners.splashscreen { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.gms.ads.AdView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keepclassmembers class * { *** rateMe(android.view.View); }
+
