@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourav.termuxguideforbeginners.Activity7"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/colorAccent"
+        android:theme="@style/AppTheme"
+        app:title="Termux Guide For Beginners"
+        app:titleMarginStart="60dp"
+        >
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/article_subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_regular"
+                android:text="HACKING VIDEOS"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault">
+            </TextView>
+
+            <TextView
+                android:id="@+id/article"
+                android:autoLink="all"
+                android:clickable="true"
+                android:layout_below="@id/article_subheading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/line_spacing"
+                android:padding="@dimen/padding_regular"
+                android:text="@string/text22"
+                android:textColor="#0B0A0A"
+                android:textSize="15dp"
+                android:textIsSelectable="true"/>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_below="@id/article"
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-4686443285116727/2941029629">
+            </com.google.android.gms.ads.AdView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

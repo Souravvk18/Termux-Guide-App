@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#800080"
+    tools:context="com.sourav.termuxguideforbeginners.splashscreen">
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/mobile"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/globe"
+        android:layout_above="@+id/word1"
+        android:layout_marginBottom="25dp"
+        android:layout_centerInParent="true">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/word1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO"
+        android:layout_above="@id/photo"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FDFDFD"
+        android:textSize="35dp"
+        android:layout_centerInParent="true">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/word2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACKING WORLD"
+        android:layout_below="@id/photo"
+        android:textStyle="bold"
+        android:textColor="#FBFBFB"
+        android:textSize="35dp"
+        android:layout_centerInParent="true">
+
+    </TextView>
+
+ </RelativeLayout>
+
+</RelativeLayout>
