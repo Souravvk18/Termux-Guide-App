@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourav.termuxguideforbeginners.MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#939292">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/laptop">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    >
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="60dp"
+                                    android:id="@+id/imageview1"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/globe"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="INTRODUCTION"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview1"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/introduction"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:id="@+id/imageview2"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/mobile"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="INSTALLATION"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview2"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/mobile"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:id="@+id/imageview3"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/diamond"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="HACKING_TIPS"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview3"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/tips"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:id="@+id/imageview4"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/tutorials"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="TUTORIALS"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview4"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/tools"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:id="@+id/imageview5"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/top"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="TOP_HACKERS"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview5"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/resource"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                >
+
+                                <ImageView
+                                    android:layout_width="50dp"
+                                    android:id="@+id/imageview6"
+                                    android:layout_height="50dp"
+                                    android:src="@drawable/youtube"
+                                    android:layout_centerInParent="true"
+                                    >
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="HACKING_VIDEOS"
+                                    android:textSize="16sp"
+                                    android:layout_below="@+id/imageview6"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/videos"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageview7"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/computer">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/imageview7"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="HACKING_FACTS"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/facts"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/imageview8"
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_centerInParent="true"
+                                    android:src="@drawable/sourav">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/imageview8"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="ABOUT"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold">
+
+                                </TextView>
+
+                                <Button
+                                    android:id="@+id/info"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+
+                            </RelativeLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
